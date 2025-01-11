@@ -1,10 +1,10 @@
 --- hyprcursor-0.1.9/CMakeLists.txt.orig	2024-05-24 20:46:51.000000000 +0200
 +++ hyprcursor-0.1.9/CMakeLists.txt	2024-07-28 18:16:55.870853997 +0200
 @@ -26,7 +26,6 @@
-     message(STATUS "Configuring hyprcursor in Debug")
-     add_compile_definitions(HYPRLAND_DEBUG)
+   message(STATUS "Configuring hyprcursor in Debug")
+   add_compile_definitions(HYPRLAND_DEBUG)
  else()
--    add_compile_options(-O3)
-     message(STATUS "Configuring hyprcursor in Release")
+-  add_compile_options(-O3)
+   message(STATUS "Configuring hyprcursor in Release")
  endif()
  

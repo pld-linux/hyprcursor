@@ -1,12 +1,12 @@
 Summary:	The hyprland cursor format, library and utilities
 Name:		hyprcursor
-Version:	0.1.9
+Version:	0.1.11
 Release:	1
 License:	BSD
 Group:		Libraries
 #Source0Download: https://github.com/hyprwm/hyprcursor/releases
 Source0:	https://github.com/hyprwm/hyprcursor/archive/v%{version}/%{name}-v%{version}.tar.gz
-# Source0-md5:	cce0498650dac9d7590ff296e1a85ded
+# Source0-md5:	a996db57b21d929c3db5e8630357fa29
 Patch0:		flags.patch
 URL:		https://hyprland.org/
 BuildRequires:	cairo-devel
